@@ -1,7 +1,41 @@
 * {
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   margin: 0;
+  background: #0b2434;
+}
+
+main {
+  width: 90vw;
+  height: 90vh;
+  border-radius: 10px;
+  background: #fff;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.dice-com {
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+  background-color: #cdf4ff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
 }
