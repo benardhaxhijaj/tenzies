@@ -18,7 +18,7 @@ main {
   display: flex;
   margin: 10vh auto;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -40,6 +40,10 @@ main {
   cursor: pointer;
 }
 
+.green-face {
+  background-color: #59e391;
+}
+
 .die-num {
   font-size: 2rem;
 }
@@ -49,7 +53,6 @@ main {
   border: 0;
   border-radius: 10px;
   padding: 20px;
-  margin-top: 100px;
   background-color: #5035ff;
   cursor: pointer;
   font-weight: 600;
