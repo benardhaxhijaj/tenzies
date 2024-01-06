@@ -22,6 +22,19 @@ main {
   align-items: center;
 }
 
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.instructions {
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  width: 40vw;
+  font-size: 1.3rem;
+}
+
 .dice-container {
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
@@ -51,6 +64,7 @@ main {
 .rollingBtn {
   width: 200px;
   border: 0;
+  color: #fff;
   border-radius: 10px;
   padding: 20px;
   background-color: #5035ff;
